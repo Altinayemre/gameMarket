@@ -23,7 +23,7 @@ public class PlayerManager implements PlayerService{
 				}
 			} catch (Exception e) {
 				
-				System.out.println("Exception type: "+e);
+				System.out.println(e.getMessage()+" --> "+player.getFirstName());
 			}
 		
 		
