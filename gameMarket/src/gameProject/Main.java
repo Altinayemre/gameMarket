@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Player player1= new Player(1,"Ahmet","Demir","12345678900",LocalDate.of(1000, 01, 10));
-		Player player2= new Player(1,"Emre","Altinay","12345678900",LocalDate.of(1000, 01, 10));
+		Player player2= new Player(2,"Emre","Altinay","12345678900",LocalDate.of(1000, 01, 10));
 		Game game1 = new Game(1,"Battlefield V",399,"Action-War");
 		Campaign campaign1= new Campaign(1,"Christmas sale",30);
 		
